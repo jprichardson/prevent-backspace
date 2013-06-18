@@ -1,0 +1,9 @@
+{
+  "name": "prevent-backspace",
+  "version": "0.0.1",
+  "description": "Prevents the backspace from navigating back in the browser.",
+  "keywords": ["dom", "backspace", "prevent", "swallow", "capture", "browser"],
+  "scripts": [
+    "index.js"
+  ]
+}
