@@ -1,9 +1,9 @@
 prevent-backspace
 ================
 
-Is a client-side JavaSscript component that prevents the backspace from navigating back in the browser.
+Is a client-side JavaScript component that prevents the backspace from navigating back in the browser.
 
-You can use it with [browserify](https://github.com/substack/node-browserify) or [component](https://github.com/component/component)
+You can use it with [browserify](https://github.com/substack/node-browserify) or [component](https://github.com/component/component).
 
 
 
@@ -16,7 +16,7 @@ Browserify
 Component
 ---------
 
-    component install jprichardson/prevent-backspace.js
+    component install jprichardson/prevent-backspace
 
 
 
