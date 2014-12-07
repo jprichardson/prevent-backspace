@@ -7,7 +7,7 @@ You can use it with [browserify](https://github.com/substack/node-browserify) or
 
 
 
-Browserify
+npm / Browserify
 ----------
 
     npm install prevent-backspace
@@ -42,4 +42,4 @@ License
 
 (MIT License)
 
-Copyright 2013, JP Richardson  <jprichardson@gmail.com>
+Copyright 2013-2014, JP Richardson  <jprichardson@gmail.com>
