@@ -26,7 +26,7 @@ Example
 
 ```javascript
 var preventBackspace = require('prevent-backspace')
-preventBackspace() //hitting `backspace` outside of input, select, or textarea will be swallowed
+preventBackspace() //hitting `backspace` outside of input, select, textarea or contentEditable will be swallowed
 ```
 
 
@@ -43,5 +43,3 @@ License
 (MIT License)
 
 Copyright 2013, JP Richardson  <jprichardson@gmail.com>
-
-

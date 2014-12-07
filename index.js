@@ -3,7 +3,8 @@ function captureBackspace(e) {
   var rx = /INPUT|SELECT|TEXTAREA/i;
 
   if( e.which == 8 ){ // 8 == backspace
-    if(!rx.test(e.target.tagName) || e.target.disabled || e.target.readOnly ){
+    if(e.target.contentEditable) return;
+    if(!rx.test(e.target.tagName) || e.target.disabled || e.target.readOnly) {
       e.preventDefault();
     }
   }
