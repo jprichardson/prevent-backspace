@@ -1,21 +1,30 @@
 {
-  "name" : "prevent-backspace", 
-  "version" : "0.0.1",
-  "description" :"Prevents the backspace from navigating back in the browser.",
-  "homepage" : [
+  "name": "prevent-backspace",
+  "version": "0.1.0",
+  "description": "Prevents the backspace from navigating back in the browser.",
+  "homepage": [
     ""
   ],
-  "repository" : {
-    "type" : "git", 
-    "url" : ""
+  "repository": {
+    "type": "git",
+    "url": ""
   },
-  "keywords" : ["dom", "backspace", "prevent", "swallow", "capture", "browser"],
-  "author" : "JP Richardson <jprichardson@gmail.com>",
-  "licenses" : [ {
-    "type" : "MIT",
-    "url" : ""
-  }],
-  "dependencies" : {},
-  "devDependencies":{},
-  "main" : "./index.js"
+  "keywords": [
+    "dom",
+    "backspace",
+    "prevent",
+    "swallow",
+    "capture",
+    "browser"
+  ],
+  "author": "JP Richardson <jprichardson@gmail.com>",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": ""
+    }
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "main": "./index.js"
 }
