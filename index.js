@@ -3,13 +3,12 @@ function captureBackspace(e) {
   var rx = /INPUT|SELECT|TEXTAREA/i;
 
   if( e.which == 8 ){ // 8 == backspace
-    
     if(e.target.getAttribute('contenteditable') !== null) return;
 
     if(!rx.test(e.target.tagName) || e.target.disabled || e.target.readOnly) {
       e.preventDefault();
     }
-  
+
   }
 }
 
@@ -18,6 +17,6 @@ module.exports = function preventBackspace() {
     window.addEventListener('keydown', captureBackspace, true)
   else if (document.attachEvent)
     document.attachEvent('onkeydown', captureBackspace)
-  else 
+  else
     document.addEventListener('keydown', captureBackspace, true)
 }
